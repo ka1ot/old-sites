@@ -1,0 +1,245 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+body{
+margin: 0px;
+transition: .5s;
+}
+
+a, p{
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;	
+}
+
+.hat{
+	height: 550px;
+ 	width: 1920px;
+ 	top: 0px;
+ 	transition: .5s;
+}
+
+.icohat{
+	background-position: center;
+	background-image: url(../src/icohat.png);
+	height: 170px;
+	width: 300px;
+	background-size: 280px 120px;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	z-index: 100;
+	position: absolute;
+	margin-top: -200px;
+}
+
+.hattext{
+	margin-left: 350px;
+	margin-top: 20px;
+	position: absolute;
+	font-family: 'Comfortaa', cursive;
+	font-size: 52px;
+	font-weight: bold;
+	margin-top: -200px;
+}
+
+.hattext p{
+	letter-spacing: 10px;
+}
+
+.hatphoto{
+	margin-top: 200px;
+	height: 500px;
+	width: 100%;
+	background-image: url(../src/photomain.jpg);
+	position: relative;
+}
+
+.pannelul{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;	
+
+}
+
+.pannel{
+	width: 1100px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+.ul{
+	margin-top: -15px;
+	width: 220px;
+	height: 35px;
+	border:1px solid black;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 21px;
+	font-weight: bold;
+	border-radius: 0px 15px 0px 15px;
+	text-decoration: none;
+	list-style-type: none;
+	padding-top: 15px;
+	transition: .5s;
+}
+
+.ul a{
+	margin-top: 12px;
+	text-decoration: none;
+	color: black;
+}
+
+.ul:hover{
+	background: rgba(0, 208, 255, .3);
+	cursor: pointer;
+	border-radius: 15px 0px 15px 0px;
+}
+
+.mainblock{
+	width: 100%;
+	height: 1600px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	padding-left: 8px;
+
+}
+
+.main{
+	width: 1098px;
+	height: 1600px;
+	border: 1px solid black;
+}
+
+#tyr{
+	width: 100%;
+	height: 630px;
+}
+
+.tyrtext{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 24px;
+	text-shadow: 0 1px 1px black;
+	color: gold;
+}
+
+table{
+	margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th, td{
+	border: 1px solid black;
+	height: 75px;
+	width: 300px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#ykaz{
+	font-size: 26px;
+}
+
+#info{
+	margin-top: -50px;
+	width: 100%;
+	height: 450px;
+}
+
+.infomaintext{
+	text-align: center;
+	font-size: 24px;
+	text-shadow: 0 1px 1px black;
+	color: gold;
+}
+
+
+.infotext{
+	width: 98%;
+	height: 355px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+#zakaz{
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+}
+
+.zakazmaintext{
+	text-align: center;
+	font-size: 24px;
+	text-shadow: 0 1px 1px black;
+	color: gold;
+}
+
+.zakazmain{
+	height: 425px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.zakazphoto{
+	height: 350px;
+	width: 600px;
+	background-image: url('../src/zakazphoto.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.zakaztext{
+	height: 300px;
+	width: 600px;
+	padding-top: 50px;
+}
+
+input, select{
+	height: 30px;
+	width: 240px;
+	color: black;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	margin-left: 50px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input:hover, select:hover{
+	border:1px solid rgba(0, 208, 255, .3);
+	cursor: pointer;
+	outline: none;
+}
+
+select{
+	height: 36px;
+	width: 254px;
+}
+
+input[name=sendinfo]:hover{
+	background: rgba(0, 208, 255, .3);
+}
+
+input[name=sendinfo]{
+	height: 36px;
+	width: 254px;
+	margin-bottom: 20px;
+}
+
+.footer{
+	height: 300px;
+	width: 100%;
+	background-color: black;
+}
+
+

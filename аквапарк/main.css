@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+
+.main-page{
+ 	height: 2280px;
+ 	width: 1905px;
+ 	/*background: rgba(191, 219, 255, 0.4);*/
+ 	background-image: url(src/bgr.png);
+ 	background-size: 200px 200px;
+ 	position: absolute;
+}
+
+.main-ul-pannel{
+	height: 30px;
+	width: 1905px;
+	background: rgba(191, 219, 255,.01);
+	display: flex;
+	justify-content: center;
+}
+
+ .main-center{
+ 	background: rgba(191, 219, 255,.01);
+ 	height: 500px;
+ 	width: 1905px;
+ 	margin-top: 2px;
+
+ }
+
+ #showtableusers{
+ 	
+ }
+
+.main-ul-btn{
+	height: 30px;
+ 	width: 300px;
+ 	background: linear-gradient(0deg,rgba(191, 219, 255, 0.4),rgba(191, 219, 255,.01));
+ 	border-bottom: 1px solid black;
+ 	border-left: 1px solid black;
+ 	border-right: 1px solid black;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	border-radius: 0px 0px 10px 10px;
+ 	box-shadow: 0px 1px 11px -2px black;
+ 	cursor: pointer;
+}
+
+.ul-btn{
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px #000;
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+.ul-btn:hover{
+	background: linear-gradient(0deg,rgba(191, 219, 255, 1),rgba(191, 219, 255,.01));
+	font-size: 16px;
+	text-shadow: 0px 0px 10px #21f73f;
+}
+
+.ul-btn-left{
+	border-radius: 0px 0px 0px 10px;
+}
+
+.ul-btn-right{
+	border-radius: 0px 0px 10px 0px;
+}
+
+.ul-btn-center{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+/*ÐœÐ°Ð¸Ð½ Ð¾ÐºÐ½Ð¾*/
+
+#mainulmain{
+	transition: .5s;
+	width: 1100px;
+	height: 1800px;
+	margin-left: 415px;
+	margin-top: -50px;
+	box-shadow: 0 0 7px 0px #0000005e;
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 15px;
+	display: block;
+	padding-top: 20px;
+}
+
+#mainulmain h1{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 60px;
+	color: rgb(198,233,255);
+	text-shadow: 0 0 3px black;
+}
+
+.funnyimgblock{
+	width: 1100px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.funnyimg{
+	width: 800px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#card {
+    width: 170px;
+    height: 200px;
+    box-shadow: 0px 0px 13px 1px black;
+    border-radius: 10px;
+    background: linear-gradient(0deg,rgb(129, 170, 255) 0%,rgba(161, 102, 255, 0.9) 15%,rgba(221, 130, 255, 0.9) 40%,rgba(255, 0, 203, 0.2) 110%);
+}
+
+#cardimg{
+	width: 100px;
+	height: 95px;
+	margin-left: 35px;
+	border-radius: 10px;
+}
+
+.allin{
+	background-image: url(src/allin.png);
+	background-size: 90px 90px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 5px;
+}
+
+.kid{
+	background-image: url(src/kid.png);
+	background-size: 90px 90px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 5px;
+}
+
+.birthday{
+	background-image: url(src/birthday.png);
+	background-size: 115px 115px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+.cardtext{
+	width: 156px;
+	height: 78px;
+	margin-left: 7px;
+	margin-top: 15px;
+	box-shadow: inset 0 0 4px 0 black;
+	border-radius: 0px 0px 10px 10px;
+	color: white;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-top: 2px;
+	text-align: center;
+	text-shadow: 0 0 4px black;
+}
+
+.kidtext{
+	margin-top: 5px;
+}
+
+.allintext{
+	margin-top: 5px;
+}
+
+.opisniemainblock{
+	width: 1100px;
+	height: 1400px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.opisniemain{
+	width: 800px;
+	height: 1300px;
+	
+}
+
+.objectsetextmain{
+	width: 790px;
+	height: 350px;
+	
+	padding-left: 10px;
+}
+
+.objectsetextmain p{
+	margin-top: -8px;
+	margin-bottom: -8px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: rgb(198,233,255);
+    text-shadow: 0 0 3px black;
+    margin-left: 30px;
+}
+
+.objectsetextmain h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: rgb(198,233,255);
+    text-shadow: 0 0 5px black;
+}
+
+.objectsetextmain h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: rgb(198, 233, 255);
+    text-shadow: 0 0 3px black;
+}
+
+.mainakvatext{
+	height: 300px;
+	width: 800px;
+	
+	padding-top: 20px;
+}
+
+.mainakvatext h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+	color: rgb(198,233,255);
+	text-shadow: 0 0 3px black;
+}
+
+.mainakvatext p{
+	margin-top: -12px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    font-size: 18px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+	color: rgb(198,233,255);
+	text-shadow: 0 0 3px black;
+}
+
+#mainakvatextinfo{
+	margin-top: 30px;
+	margin-bottom: -45px;
+    font-size: 16px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+	color: rgb(198,233,255);
+	text-shadow: 0 0 3px black;
+	margin-left: 35px;
+}
+
+.mainakvatext a{
+	color: gold;
+}
+
+.maintextinfo{
+	height: 200px;
+	width: 800px;
+	
+}
+
+.maintextinfo h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+	color: rgb(198,233,255);
+	text-shadow: 0 0 3px black;
+}
+
+.maintextinfo p{
+	font-size: 18px;
+	font-weight: bold;
+	font-family:  'Montserrat', sans-serif;
+	color: rgb(198,233,255);
+	text-shadow: 0 0 3px black;
+	margin-left: 35px;
+}
+
+.photos{
+	margin-top: 20px;
+	
+	height: 600px;
+	width: 800px;
+}
+
+.block{
+	height: 200px;
+	width: 300px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	border: 1px solid black;
+}
+
+#photo1{
+	margin-left: -70px;
+	background-image: url(src/imgfantasy/akvapark.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 350px 205px;
+}
+#photo2{
+	margin-top: -202px;
+	margin-left: 245px;
+	background-image: url(src/imgfantasy/basseyn.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 350px 200px;
+}
+#photo3{
+	margin-left: 560px;
+	margin-top: -202px;
+	background-image: url(src/imgfantasy/bowling.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 350px 200px;
+}
+
+#photo4{
+	margin-left: 90px;
+	margin-top: 15px;
+	background-image: url(src/imgfantasy/lejaki.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 350px 200px;
+}
+
+#photo5{
+	margin-left: 408px;
+	margin-top: -202px;
+	background-image: url(src/imgfantasy/restoran.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 350px 200px;
+}
+
+
+/*ÐžÐºÐ½Ð¾ Ñ†ÐµÐ½Ð½Ð¸ÐºÐ¾Ð²*/
+
+#mainulprice{
+	transition: .5s;
+	width: 1100px;
+    height: 1000px;
+    margin-left: 415px;
+    margin-top: -50px;
+    box-shadow: 0 0 7px 0px #0000005e;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+	display:block;
+	padding-top: 100px;
+
+}
+
+table{
+	margin-top: 50px;
+	border: 1px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th, td{
+	border: 1px solid black;
+	height: 75px;
+	width: 300px;
+	font-family:  'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.ykaz{
+	font-size: 26px;
+}
+
+.priceshat{
+	height: 100px;
+	width: 1100px;
+	padding-left: 350px;
+}
+
+.pricehattext{
+	margin-left: 100px;
+	font-size: 42px;
+	color: orange;
+	font-family:  'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-top: -55px;
+	text-shadow: 0 0 2px black;
+}
+
+.fa-ticket-alt{
+	transform: rotate(-45deg);
+	color: orange;
+	font-size: 64px;
+	text-shadow: 0 0 2px black;
+}
+
+
+/*O HAC*/
+
+#mainulkontakt{
+	transition: .5s;
+	width: 1100px;
+    height: 1000px;
+    margin-left: 415px;
+    margin-top: -50px;
+    box-shadow: 0 0 7px 0px #0000005e;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+	display: block;
+}
+
+
+/*footer*/
+
+footer{
+	background: red;
+}

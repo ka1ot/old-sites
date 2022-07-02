@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap');
+
+/*ПОДЧЁРКИВАНИЕ ВВЕРХУ
+ $blue = #4282D3
+ $lightblue = #6997D3
+ $darkblue = #0E51A7
+ $wdarkblue = #05326D
+ $purple = #7049A3
+*/
+
+
+body{
+	margin: 0px;
+}
+
+
+ .hat{
+ 	height: 415px;
+ 	width: 1905px;
+ 	top: 0px;
+ 	box-shadow: 0 0 5px rgba(0,0,0,.5);
+ 	transition: .5s;
+ }
+
+
+.hat-main{
+	color: white;
+	height: 150px;
+	width: 1905px;
+	background: rgba(105, 151, 211, .7);
+	padding-top: 10px;
+}
+
+
+ .hat-rollingpannel{
+ 	height: 255px;
+ 	width: 1905px;
+ 	background: rgba(105, 151, 211, .7);
+ }
+
+ #scr {
+	margin-left: 5px;
+	width: 1508px;
+	height: 250px;
+	background-color: white;
+	background-size:1920px 280px;
+	background-position: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	transition: 1.5s;
+	background-image: url(src/img3.jpg);
+	}
+
+#auth{
+	height: 250px;
+    width: 380px;
+    margin-left: 1517px;
+    margin-top: -252px;
+    border-radius: 10px;
+    background: #4282D3;
+    border: 1px solid black;
+}
+
+
+
+.logpannel{
+	height: 230px;
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logpannel1{
+	height: 230px;
+	width: 170px;
+	padding-top: 99px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.logpannel2{
+	height: 210px;
+	width: 230px;
+}
+
+.logpannel1 p{
+	color: white;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 21px;
+}
+
+
+.login-fas-fa{
+	height: 70px;
+	width: 150px;
+	font-size: 72px;
+	padding-left: 45px;
+	padding-top: 20px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.login-inputs{
+	margin-top: 14px;
+	height: 180px;
+	width: 240px;
+}
+
+.authme{
+	height: 22px;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 10px;
+	outline: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: 1px solid rgba(22,22,22,.3);
+}
+
+.Auth{
+	border: 1px solid rgba(22,22,22,.3);
+	height: 22px;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 10px;
+	outline: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(200,0,0,.9);
+    -moz-box-shadow: 0 0 2px 2px rgba(200,0,0,.9);
+    box-shadow: 0 0 2px 2px #rgba(200,0,0,.9);
+}
+
+#login{
+	font-size: 16px;
+}
+
+#pass{
+	font-size: 24px;
+}
+
+#authbtn{
+	height: 37px;
+    width: 199px;
+    margin-top: 10px;
+    margin-left: 11px;
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+    background-image: linear-gradient(to right, #4282D3 0%, rgba(105, 151, 211, .7) 51%, #4282D3 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding-top: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#authbtn:hover {
+	background-position: right center;
+}
+
+.icohat{
+	background-position: center;
+	background-image: url(src/img2.png);
+	height: 110px;
+	width: 110px;
+	background-size: 120px 120px;
+	background-repeat: no-repeat;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.logosite{
+	width: 710px;
+	font-size: 68px;
+    margin-top: -110px;
+    margin-left: 150px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    text-shadow: 1px 1px 12px black;
+    z-index: 100;
+}
+
+.siteinfo{
+	width: 380px;
+	height: 120px;
+	margin-left: 1510px;
+	margin-top: -100px;
+}
+
+.texttime{
+	width: 180px;
+	height: 45px;
+	font-size: 36px;
+	margin-left: 100px;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid rgba(0,0,0,.3);
+}
+
+.fa-phone-alt{
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-size: 54px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.phonenumber{
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 60px;
+	margin-top: -50px;
+}
+
+#eye{
+	font-size: 21px;
+	cursor: pointer;
+	margin-left: 217px;
+	margin-top: -23px;
+	transition: .5s;
+}
+
+.left,.right{
+	height: 250px;
+    background: rgba(0,0,0,.3);
+    width: 30px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    line-height: 250px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+.left{
+	margin-left: 0px;
+    margin-top: -36px;
+    border-radius: 7px 0px 0px 7px;
+}
+.right{
+	margin-left: 1478px;
+    margin-top: -286px;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.left:hover,.right:hover{
+	background: rgba(0,0,0,.5);
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.left:hover{
+	border-right: 1px solid rgba(255,255,255,.7);
+}
+
+.right:hover{
+	border-left: 1px solid rgba(255,255,255,.7);
+}
+
+.indicators{
+	border-top: 1px solid rgba(0,0,0,.9);
+	border-right: 1px solid rgba(0,0,0,.9);
+	border-left: 1px solid rgba(0,0,0,.9);
+	border-radius: 5px 5px 0px 0px;
+	height: 20px;
+	width: 100px;
+	margin-top: -25px;
+	margin-left: 754px;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	justify-content: space-around;
+	padding-top: 5px;
+}
+
+.indi{
+	height: 13px;
+	width: 16px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,.8);
+	display: flex;
+	justify-content: center;
+	padding-top: 3px;
+}
+
+.indi:hover{
+	background-color: lime;
+	cursor: pointer;
+
+}
+
+.indicenter{
+	height: 10px;
+	width: 10px;
+	background-color: black;
+	border-radius: 8px;
+}
+
+#obl{
+	background-image: url(src/oblaka.png);
+    height: 150px;
+    width: 500px;
+    margin-top: -115px;
+    margin-left: 120px;
+    background-size: 498px 148px;
+    z-index: 99;
+    transition: 1s;
+}
+
+#lk{
+	display: none;
+	height: 250px;
+    width: 380px;
+    margin-left: 1517px;
+    margin-top: -252px;
+    border-radius: 10px;
+    background: #4282D3;
+    border: 1px solid black;
+}
+
+.lkbtns{
+	height: 37px;
+    width: 199px;
+    margin-top: 100px;
+    margin-left: 12px;
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+    background-image: linear-gradient(to right, #4282D3 0%, rgba(105, 151, 211, .7) 51%, #4282D3 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding-top: 5px;
+    font-size: 21px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lkbtns:hover {
+	background-position: right center;
+}
+
+#logout{
+	height: 37px;
+    width: 150px;
+    margin-left: 2px;
+}
+
+.lktext{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#lktext{
+	height: 80px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: -70px;
+    color: white;
+}

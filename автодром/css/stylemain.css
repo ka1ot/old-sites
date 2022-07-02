@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+body{
+	margin: 0px;
+	font-family: 'Baloo Paaji 2', cursive;
+	background: #2F2E34;
+	overflow-x: hidden;
+}
+.mainwindow{
+	height: 100%;
+	width: 100%;
+}
+.hat{
+	width: 1919px;
+	height: 100px;
+}
+.hat h1{
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 24px;
+	color: white;
+	margin-left: 70px;
+	margin-top: -52px;
+}
+.hat h2{
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 18px;
+	color: white;
+	margin-left: 70px;
+	margin-top: -32px;
+}
+#phonenumberhat{
+	margin-left: 1720px;
+    margin-top: -75px;
+}
+.fa-book{
+	color: white;
+	font-size: 38px;
+	margin-left: 30px;
+	margin-top: 2%;
+}
+.mainsite{
+	background: white;
+	height: 2300px;
+	width: 1919px;
+	display: flex;
+	justify-content: center;
+}
+.main{
+	height: 500px;
+	width: 1600px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.sections{
+	height: 500px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+.AutoPhoto{
+	height: 400px;
+	width: 500px;
+	border-radius: 20px;
+	background-image: url('../src/jpeg/vulcan.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 500px 400px;
+}
+.liSection{
+	height: 44px;
+	width: 294px;
+	margin-top: 4px;
+    margin-left: 4px;
+	border-radius: 45px;
+	background: white;
+	cursor: pointer;
+	outline: none;
+	display: flex;
+	justify-content: center;
+}
+.liSection a{
+	text-align: center;
+	font-size: 24px;
+	margin-top: 3px;
+	text-decoration: none;
+	color: black;
+}
+#sectionf, #sections, #sectiont{
+	height: 52px;
+	width: 302px;
+	margin-top: 220px;
+	border-radius: 50px;
+	background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(210,29,203,1) 100%);;
+}
+#AutoPhoto{
+	height: 400px;
+    width: 500px;
+    margin-top: 45px;
+    padding: 4px;
+	border-radius: 23px;
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(210,29,203,1) 100%);
+}
+.Photo p{
+	margin-top: 15px;
+	font-size: 24px;
+	text-align: center;
+}
+#thriedsectionmain{
+	background: white;
+	display: none;
+	height: 346px;
+	width: 294px;
+	margin-left: 4px;
+	padding-top: 1px;
+	border-top: 2px solid black;
+	border-radius: 0px 0px 45px 45px;
+}
+#thriedsectionmain p{
+	font-family: 'Baloo Paaji 2', cursive;
+}
+.mainsecond{
+	height: 980px;
+	width: 1919px;
+	margin-top: -1400px;
+	background: #2F2E34;
+	border-top:1px solid black;
+}
+.firstinfo{
+	height: 940px;
+    width: 860px;
+    background: #2f2e34;
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 10px;
+    border-right: 2px solid black;
+}
+.secondinfo{
+	height: 500px;
+    width: 800px;
+    background: white;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+.secondinfoqwe{
+	height: 490px;
+    width: 790px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background: url(../src/jpeg/123.jpg);
+    background-size: 880px 490px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+}
+.mainwindowsecond{
+	display: flex;
+	justify-content: space-around;
+}
+.BMWPNG{
+	height: 490px;
+	width: 790px;
+	background: url('../src/png/bmw2.png');
+	background-size: 790px 490px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 950px;
+	margin-top: -400px;
+}
+.firstinfo p{
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 24px;
+	color: white;
+}
+.firstinfo h1{
+	font-family: 'Baloo Paaji 2', cursive;
+	font-size: 32px;
+	color: white;
+	text-align: center;
+}
+.prices{
+	height: 1080px;
+	width: 1919px;
+	background: url(../src/jpeg/bmwbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: 1919px 1080px;
+	margin-top: -70px;
+	border-top:1px solid black;
+}
+.zakaz{
+	height: 980px;
+	width: 1919px;
+	background: url(../src/jpeg/corvettebackground.jpg);
+	background-repeat: no-repeat;
+	background-size: 1919px 980px;
+	margin-top: -70px;
+	border-top:1px solid black;
+}
+.prices h1{
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+	text-shadow: 0 0 20px black;
+}
+table{
+	margin-top: 100px;
+    background: #2f2e34b8;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+th, td{
+	border: 1px solid white;
+	height: 75px;
+	width: 300px;
+	font-family: 'Baloo Paaji 2', cursive;
+	font-weight: bold;
+	color: white;
+	margin-top: 5px;
+	text-shadow: 0 0 20px black;
+	font-size: 18px;
+}
+#ykaz{
+	font-size: 26px;
+}
+.zakazplate{
+	background: #ff000070;
+    height: 300px;
+    width: 350px;
+    margin-left: 785px;
+    margin-top: 420px;
+}
+.zakazplate h1{
+	font-family: 'Baloo Paaji 2', cursive;
+	font-weight: bold;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+input, select{
+	height: 30px;
+	width: 280px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Baloo Paaji 2', cursive;
+	margin-left: 30px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #ff000070;
+	border: 1px solid black;
+}
+input:hover, select:hover{
+	border: 1px solid white;
+	cursor: pointer;
+	outline: none;
+}
+select{
+	height: 36px;
+	width: 292px;
+	color: white;
+}
+input[name=sendinfo]:hover{
+	background: rgba(0, 208, 255, .3);
+}
+input[name=sendinfo]{
+	height: 36px;
+	width: 292px;
+	margin-bottom: 20px;
+}
+input[name=sendinfo]:hover{
+	color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+
+.services {
+	display: flex;
+    flex-direction: column;
+    background: url(../src/services/seves.png);
+    background-repeat: no-repeat;
+    background-size: 1900px 1000px;
+    height: 100vh;
+    margin: -70px 0 74px 0;
+}
+.services h2 {
+	font-size: 48px;
+    text-align: center;
+    color: #000;
+    text-shadow: 0 0 18px #ffffff;
+	margin-top: 150px;
+	margin-bottom: 35px;
+}
+.services_block {
+	padding: 10px;
+	width: 352px;
+	min-height: 200px;
+	cursor: pointer;
+    margin: 20px;
+}
+.bl1 {
+	background: url(../src/services/1.jpg);
+}
+.bl2 {
+	background: url(../src/services/2.jpg);
+}
+.bl3 {
+	background: url(../src/services/3.jpg);
+}
+.bl4 {
+	background: url(../src/services/4.jpg);
+}
+.bl5 {
+	background: url(../src/services/5.jpg);
+}
+.bl6 {
+	background: url(../src/services/6.jpg);
+}
+.serices_blocks {
+	display: flex;
+	justify-content: center;
+}
+.services_block_middle {
+    padding: 10px;
+    border: 3px solid rgba(255,255,255,0.7);
+}
+.services_blocks {
+    background-color: rgba(0,0,0,0.7);
+    height: 190px;
+}
+.services_blocks:hover {
+	background: rgb(34 34 34 / 70%);
+	transition: .3s;
+	text-shadow: 0 0 7px black;
+}
+.services_blocks_title {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	align-items: center;
+	color: #ffce00;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+}
+
