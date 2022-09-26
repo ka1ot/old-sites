@@ -1,0 +1,34 @@
+body{
+	margin: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.main-window{
+	width: 810px;
+	height: 810px;
+	margin-top: 70px;
+	border: 1px solid black;
+}
+
+.lines{
+	width: 810px;
+	height: 270px;
+	justify-content: space-around;
+	display: flex;
+}
+
+.obj{
+	width: 270px;
+	height: 270px;
+	border: 1px solid black;
+	transition: .4s;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.obj:hover{
+	background-color: rgba(23,54,211,.3);
+}
+
