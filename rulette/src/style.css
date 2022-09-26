@@ -1,0 +1,117 @@
+body{
+	margin: 0px;
+}
+
+.main{
+	width: 1920px;
+	height: 300px;
+	background: url('formrulette2.png');
+	margin-top: -300px;
+    position: absolute;
+}
+
+.rulette{
+	width: 1920px;
+	height: 300px;
+	margin-top: -3px;
+}
+
+.center{
+	width: 400px;
+	height: 300px;
+}
+
+.leftcorner, .rightcorner{
+	width: 760px;
+	height: 300px;
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0.2) 40%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,1) 100%);
+}
+
+.objs{
+	width: 1920px;
+	height: 300px;
+	z-index: 1;
+}
+
+.bluring{
+	width: 1920px;
+	height: 300px;
+	display:flex;
+	justify-content: space-between;
+	margin-top: -300px;
+	z-index: 0;
+}
+
+.obj{
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+.spinthissit{
+	height: 50px;
+	width: 200px;
+	font-size: 24px;
+	margin-left: 862px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background: rgba(54,54,221,0.2);
+}
+
+#one{
+	margin-left: 0px;
+	margin-top: 3px;
+}
+
+#two{
+	margin-top: -302px;
+}
+
+#three{
+	margin-top: -302px;
+}
+
+#four{
+	margin-top: -302px;
+}
+
+#five{
+	margin-top: -302px;
+}
+
+#six{
+	margin-top: -302px;
+}
+
+#win{
+	border: 2px dotted black;
+	width: 500px;
+	height: 400px;
+	margin-top: -150px;
+	margin-left: 710px;
+	background: lightblue;
+	position: relative;
+	border-radius: 15px;
+	display: none;
+}
+
+#winitem{
+	width: 400px;
+	height: 300px;
+	border: 2px dotted black;
+	margin-left: 48px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#succes{
+	margin-top: 15px;
+	margin-left: 48px;
+	width: 404px;
+	height: 50px;
+	border: 1px solid black;
+	font-size: 24px;
+	border-radius: 5px;
+	font-weight: bold;
+}
